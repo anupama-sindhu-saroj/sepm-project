@@ -1,5 +1,5 @@
 import express from "express";
-import Issue from "../models/Issue.js";
+import Issue from "../models/issue.js";
 import authMiddleware from "../middleware/authMiddleware.js";
 import IssueLocation from "../models/IssueLocation.js";
 

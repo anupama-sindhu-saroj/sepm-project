@@ -1,5 +1,5 @@
 import express from "express";
-import Issue from "../models/Issue.js"; // make sure same model your friend uses
+import Issue from "../models/issue.js"; // make sure same model your friend uses
 const router = express.Router();
 
 /** Get all issues for authority view */
